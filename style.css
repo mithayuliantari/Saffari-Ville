@@ -47,7 +47,7 @@ body{
 }
 
 .nav-text{
-    font-weight: 500;
+    font-weight: bold;
     color: #388e3c;
 }
 
@@ -720,8 +720,9 @@ transition: all 0.2s ease-in-out;
     border-radius: 10px;
     text-align: center;
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 60%;
     height: 100%;
+    
 }
 
 .testimonial-text {
@@ -741,7 +742,7 @@ transition: all 0.2s ease-in-out;
     margin-bottom: 0;
 }
 
-.carousel-control-prev,
+#testi .carousel-control-prev,
 .carousel-control-next {
     width: 40px;
     height: 40px;
@@ -752,22 +753,22 @@ transition: all 0.2s ease-in-out;
     opacity: 1;
 }
 
-.carousel-control-prev {
-    left: -1rem;
+#testi .carousel-control-prev {
+    left: 2.8rem;
 
 }
 
-.carousel-control-next {
-    right: -1rem;
+#testi .carousel-control-next {
+    right: 2.8rem;
 }
 
-.carousel-control-prev-icon,
+#testi .carousel-control-prev-icon,
 .carousel-control-next-icon {
     width: 1.5rem;
     height: 1.5rem;
 }
 
-.carousel-item {
+#testi .carousel-item {
     padding: 0 0;
 }
 
